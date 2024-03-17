@@ -24,13 +24,10 @@ async function main() {
 
     const res = await prisma.youtube_channels.update({
       where: {
-        id: 1,
+        id: 7,
       },
       data: {
-        name: "Luan Vieira",
-        description: "Frontend",
-        subscribers: 521,
-        link: "https://www.youtube.com/@LuanVieiraPereira",
+        name: "Luan",
       },
     });
 
